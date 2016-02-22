@@ -1,0 +1,113 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "宋体",serif;
+  color: #333333; 
+}
+
+a, p, li {
+  font-family: "宋体",sans-serif;
+  color: #4e4e4e;
+  font-size: 1em;
+  line-height: 1.75em; 
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #333333 !important;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 20px; 
+}
+
+@media only screen and (max-width: 767px) {
+  .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+}
+
+/*导航开始*/
+/*.main-nav {
+  background: #f4f4f4;
+  padding-top: 23px; 
+}
+.main-nav nav ul li a {
+  color: #a7a7a7; 
+}
+.main-nav nav ul .active a {
+  color: #4d4d4d; 
+}*/
+/*导航结束*/
+
+/*分部开始*/
+.section.second {
+  margin-bottom: 20px; 
+}
+/*.section .container {
+  position: relative; 
+}
+.section .container:after {
+  position: absolute;
+  content: url(../img/separator.png);
+  left: 20px; 
+}*/
+.section .container h1 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative; 
+}
+/*分部结束*/
+
+/*基本信息开始*/
+.intro {
+
+  padding-top: 30px;
+  overflow-x: hidden; 
+}
+.intro img {
+  width: 81px;
+  height: 81px;
+  border-radius: 99px; 
+}
+.intro .wrap {
+  margin-top: 30px; 
+}
+.intro h1:before {
+  position: absolute;
+  left: -180px;
+  top: -100px;
+  font-size: 200px;
+  z-index: -1;
+  color: #f4f4f4; 
+  content: 'QiuChen';
+}
+
+.intro h1 span {
+  font-size: 47px; 
+}
+.intro .last {
+  margin-bottom: 0;
+}
+/*基本信息结束*/
+
+.skills .skill-list,.project .project-list,.other .other-list {
+  margin-left: 0px; 
+  list-style-type: circle;
+}
+.skills .skill-list li:first-child,.project .project-list li:first-child,.other .other-list li:first-child {
+  font-size: 0.9375em;
+  color: #8c8c8c; 
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
